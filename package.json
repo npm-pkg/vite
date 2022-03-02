@@ -37,7 +37,7 @@
     "ci-build": "rimraf dist && run-s build-bundle build-types",
     "patch-types": "ts-node scripts/patchTypes.ts",
     "roll-types": "api-extractor run && rimraf temp",
-    "format": "prettier --write --parser typescript \"src/**/*.ts\"",
+    "format": "prettier --write --parser typescript \"src/**/*.ts\""
   },
   "//": "READ CONTRIBUTING.md to understand what to put under deps vs. devDeps!",
   "dependencies": {
